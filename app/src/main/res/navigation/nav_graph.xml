@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/reportFragment">
+
+    <fragment
+        android:id="@+id/reportFragment"
+        android:name="com.yourname.safereport.ui.report.ReportFragment"
+        android:label="@string/nav_report"
+        tools:layout="@layout/fragment_report" />
+
+    <fragment
+        android:id="@+id/myReportsFragment"
+        android:name="com.yourname.safereport.ui.track.MyReportsFragment"
+        android:label="@string/nav_my_reports"
+        tools:layout="@layout/fragment_my_reports">
+        <action
+            android:id="@+id/action_myReports_to_detail"
+            app:destination="@id/incidentDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/trackByCodeFragment"
+        android:name="com.yourname.safereport.ui.track.TrackByCodeFragment"
+        android:label="@string/nav_track_code"
+        tools:layout="@layout/fragment_track_by_code">
+        <action
+            android:id="@+id/action_trackByCode_to_detail"
+            app:destination="@id/incidentDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/adminDashboardFragment"
+        android:name="com.yourname.safereport.ui.admin.AdminDashboardFragment"
+        android:label="@string/admin_dashboard"
+        tools:layout="@layout/fragment_admin_dashboard">
+        <action
+            android:id="@+id/action_adminDashboard_to_detail"
+            app:destination="@id/incidentDetailFragment" />
+        <action
+            android:id="@+id/action_adminDashboard_to_analytics"
+            app:destination="@id/adminAnalyticsFragment" />
+        <action
+            android:id="@+id/action_adminDashboard_to_map"
+            app:destination="@id/adminMapFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/adminAnalyticsFragment"
+        android:name="com.yourname.safereport.ui.admin.AdminAnalyticsFragment"
+        android:label="@string/nav_analytics"
+        tools:layout="@layout/fragment_admin_analytics" />
+
+    <fragment
+        android:id="@+id/adminMapFragment"
+        android:name="com.yourname.safereport.ui.admin.AdminMapFragment"
+        android:label="@string/nav_map"
+        tools:layout="@layout/fragment_admin_map">
+        <action
+            android:id="@+id/action_adminMap_to_detail"
+            app:destination="@id/incidentDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/incidentDetailFragment"
+        android:name="com.yourname.safereport.ui.track.IncidentDetailFragment"
+        android:label="Incident Details"
+        tools:layout="@layout/fragment_incident_detail">
+        <argument
+            android:name="incidentId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/privacyPolicyFragment"
+        android:name="com.yourname.safereport.ui.common.PrivacyPolicyFragment"
+        android:label="@string/privacy_title"
+        tools:layout="@layout/fragment_privacy_policy" />
+
+</navigation>

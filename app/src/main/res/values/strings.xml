@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">AlertX</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="sign_in_to_continue">Sign in to report and track safety incidents</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login">Sign In</string>
+    <string name="register">Create Account</string>
+    <string name="continue_anonymously">Continue Anonymously</string>
+    <string name="no_account">Don\'t have an account? Register</string>
+    <string name="have_account">Already have an account? Sign In</string>
+    <string name="full_name">Full Name</string>
+    <string name="role">Role</string>
+
+    <!-- Navigation Titles -->
+    <string name="nav_report">Report</string>
+    <string name="nav_my_reports">My Reports</string>
+    <string name="nav_track_code">Track Code</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_analytics">Analytics</string>
+    <string name="nav_map">Map View</string>
+    <string name="nav_privacy">Privacy</string>
+
+    <!-- Incident Form -->
+    <string name="report_an_incident">Report Safety Incident</string>
+    <string name="incident_title">Incident Title</string>
+    <string name="category">Category</string>
+    <string name="severity">Severity</string>
+    <string name="description">Detailed Description</string>
+    <string name="report_anonymously">Report Anonymously</string>
+    <string name="anonymous_desc">Your identity will not be linked to this incident report.</string>
+    <string name="attach_photo">Attach Photo Evidence</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="remove_photo">Remove Photo</string>
+    <string name="attach_location">Attach Current Location</string>
+    <string name="location_attached">Location attached</string>
+    <string name="location_not_attached">Location not attached</string>
+    <string name="submit_report">Submit Incident Report</string>
+    <string name="save_draft">Save Draft Offline</string>
+    <string name="sos_emergency">SOS EMERGENCY</string>
+
+    <!-- Tracking -->
+    <string name="track_incident">Track Incident</string>
+    <string name="enter_tracking_code">Enter Tracking Code (e.g. INC-12345678)</string>
+    <string name="search">Search</string>
+    <string name="tracking_code">Tracking Code</string>
+    <string name="copy_code">Copy Code</string>
+    <string name="code_copied">Tracking code copied to clipboard</string>
+    <string name="incident_submitted_dialog_title">Report Submitted Successfully!</string>
+    <string name="incident_submitted_dialog_msg">Save your tracking code to view real-time updates anonymously:</string>
+
+    <!-- Admin & Management -->
+    <string name="admin_dashboard">Security Admin Dashboard</string>
+    <string name="filter_by_status">Status</string>
+    <string name="filter_by_severity">Severity</string>
+    <string name="filter_by_category">Category</string>
+    <string name="update_status">Update Status</string>
+    <string name="assign_security">Assign Security Staff</string>
+    <string name="add_comment">Add Official Note/Update</string>
+    <string name="assigned_to">Assigned Security: </string>
+    <string name="timeline">Incident Update Timeline</string>
+
+    <!-- Categories -->
+    <string name="cat_harassment">Harassment</string>
+    <string name="cat_theft">Theft</string>
+    <string name="cat_fire">Fire</string>
+    <string name="cat_medical">Medical Emergency</string>
+    <string name="cat_infrastructure">Infrastructure Hazard</string>
+    <string name="cat_other">Other</string>
+
+    <!-- Severities -->
+    <string name="sev_low">LOW</string>
+    <string name="sev_medium">MEDIUM</string>
+    <string name="sev_high">HIGH</string>
+    <string name="sev_critical">CRITICAL</string>
+
+    <!-- Statuses -->
+    <string name="stat_submitted">SUBMITTED</string>
+    <string name="stat_under_review">UNDER REVIEW</string>
+    <string name="stat_in_progress">IN PROGRESS</string>
+    <string name="stat_resolved">RESOLVED</string>
+
+    <!-- Roles -->
+    <string name="role_user">USER</string>
+    <string name="role_security">SECURITY</string>
+    <string name="role_admin">ADMIN</string>
+
+    <!-- Empty States -->
+    <string name="no_incidents">No incidents reported yet.</string>
+    <string name="no_incident_found">No incident found with this tracking code.</string>
+
+    <!-- Biometrics -->
+    <string name="biometric_title">Admin Authentication</string>
+    <string name="biometric_subtitle">Verify your identity to access Security Admin Dashboard</string>
+
+    <!-- Privacy Policy -->
+    <string name="privacy_title">Privacy &amp; Data Handling Policy</string>
+    <string name="privacy_body">AlertX guarantees anonymity when the "Report Anonymously" switch is enabled. No user ID or personal identifier is attached to anonymous reports. Location data is stored securely in Firestore and used solely for emergency response and safety management. Photo evidence is encrypted in Firebase Storage.</string>
+</resources>

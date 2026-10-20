@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Safety Theme Colors -->
+    <color name="primary">#1E3A8A</color>
+    <color name="primary_variant">#1E40AF</color>
+    <color name="primary_container">#DBEAFE</color>
+    <color name="secondary">#0D9488</color>
+    <color name="accent">#DC2626</color>
+
+    <color name="bg_light">#F6F7FB</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="text_primary">#111827</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="outline">#E5E7EB</color>
+
+    <!-- Severity Colors -->
+    <color name="severity_low">#16A34A</color>
+    <color name="severity_medium">#F59E0B</color>
+    <color name="severity_high">#EA580C</color>
+    <color name="severity_critical">#DC2626</color>
+
+    <!-- Status Colors -->
+    <color name="status_submitted">#2563EB</color>
+    <color name="status_under_review">#D97706</color>
+    <color name="status_in_progress">#9333EA</color>
+    <color name="status_resolved">#16A34A</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

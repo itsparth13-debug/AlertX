@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SafeReport" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#90CAF9</item>
+        <item name="colorSecondary">#80CBC4</item>
+        <item name="colorError">#EF9A9A</item>
+    </style>
+
+    <style name="Theme.SafeReport.Splash" parent="Theme.SafeReport">
+        <item name="android:windowBackground">#121212</item>
+    </style>
+</resources>

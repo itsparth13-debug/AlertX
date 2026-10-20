@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SafeReport" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorError">@color/severity_critical</item>
+        <item name="android:statusBarColor">@color/bg_light</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowBackground">@color/bg_light</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.SafeReport.Card</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.SafeReport.Button</item>
+    </style>
+
+    <style name="ShapeAppearance.SafeReport.Card" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="ShapeAppearance.SafeReport.Button" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="Theme.SafeReport.Splash" parent="Theme.SafeReport">
+        <item name="android:windowBackground">@color/primary</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
